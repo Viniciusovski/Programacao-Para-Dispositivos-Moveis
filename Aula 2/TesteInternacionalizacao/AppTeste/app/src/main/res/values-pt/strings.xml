@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppTeste</string>
+    <string name="str_olamundo">Olá Mundo!</string>
+    <string name="str_button1">Botão</string>
+</resources>

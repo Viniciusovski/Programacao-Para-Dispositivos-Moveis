@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alcides.exweight.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/txt1"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget"
+        android:background="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/txt2"
+        android:layout_weight="8"
+        android:textAlignment="center"
+        android:background="@android:color/holo_green_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/txt3"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark" />
+
+</LinearLayout>

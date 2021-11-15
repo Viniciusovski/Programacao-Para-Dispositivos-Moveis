@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView0"
+            android:src="@drawable/tempo"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@drawable/tempo"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/tempo"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/tempo"
+            />
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha: "
+            />
+        <EditText
+            android:id="@+id/txtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="90sp"
+            android:text="Digite a senha aqui..."
+            />
+    </TableRow>
+</TableLayout>
+

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ConstraintDentroDeConstraint</string>
+    <string name="titulo_principal">Vários ConstraintLayout dentro de um ConstraintLayout</string>
+</resources>

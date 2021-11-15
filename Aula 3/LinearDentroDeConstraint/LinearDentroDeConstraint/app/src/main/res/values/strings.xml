@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LinearDentroDeConstraint</string>
+    <string name="titulo_principal">Vários LinearLayout dentro de um ConstraintLayout</string>
+</resources>

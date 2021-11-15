@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exemplo4Aula2ConstraintLayout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="descricao">Imagens diversas</string>
+    <string name="texto">Considera-se paisagem a imagem resultante da síntese de todos os elementos presentes em determinado local.
+        Uma outra definição, tradicional, de paisagem é a de um espaço territorial abrangido pelo olhar.
+        Pode ser definida como o domínio do visível, aquilo que a vista abarca. É formada não apenas por volumes mas também por
+        cores, movimento, odores, sons etc/. A paisagem não é espaço, pois se tirarmos a paisagem de um determinado lugar,
+        o espaço não deixará de existir.  O termo é normalmente usado para se referir às perspectivas visuais existentes em
+        cada ambiente, sendo inclusive uma categoria da pintura.</string>
+    <string name="sadfaf">sadfaf</string>
+</resources>

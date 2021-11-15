@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cabecalho1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/titulo_principal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@id/cabecalho1"
+        app:layout_constraintTop_toBottomOf="@id/cabecalho1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@id/linearlayout1"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout1">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f4" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@id/linearlayout2"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout2">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f7" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f8" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+            android:src="@drawable/f9" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
