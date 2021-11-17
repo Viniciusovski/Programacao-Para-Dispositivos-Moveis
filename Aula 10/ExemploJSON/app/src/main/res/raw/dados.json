@@ -1,0 +1,48 @@
+{
+  "funcionarios": [
+    {
+      "id": "01",
+      "nome": "Alcides",
+      "salario": "10000",
+	  "disciplinas":[{"cod":1013,"nome":"Prog para Dispositivos Móveis"},
+					 {"cod":1014,"nome":"Aplicações para Internet"},
+                     {"cod":1003,"nome":"Programação Web"},
+                     {"cod":2201,"nome":"Lógica Matemática"},
+					 {"cod":1004,"nome":"Sistemas Cliente Servidor"},
+					 {"cod":1005,"nome":"Jogos para Mobile"}
+					]
+    },
+    {
+      "id": "02",
+      "nome": "Ledón",
+      "salario": "7000",
+	  "disciplinas":[{"cod":1011,"nome":"Inteligência Artificial"},
+					 {"cod":1012,"nome":"Estruturas de Dados"},
+					 {"cod":1013,"nome":"Prog para Dispositivos Móveis"},
+					 {"cod":1014,"nome":"Aplicações para Internet"},
+                     {"cod":2201,"nome":"Lógica Matemática"},
+					 {"cod":1015,"nome":"Programação Python"}
+					]
+    },
+    {
+      "id": "03",
+      "nome": "Lucas",
+      "salario": "6000",
+	  "disciplinas":[{"cod":2001,"nome":"Matemática Básica"},
+					 {"cod":2002,"nome":"Cálculo Numérico"},
+					 {"cod":2004,"nome":"Geografia"},
+                     {"cod":2201,"nome":"Lógica Matemática"},
+					 {"cod":2005,"nome":"Química"}
+					]
+    },
+    {
+      "id": "04",
+      "nome": "Renata",
+      "salario": "7200",
+      "disciplinas":[{"cod":1003,"nome":"Programação Web"},
+        {"cod":1099,"nome":"Estruturas de Dados II"},
+        {"cod":2005,"nome":"Química"}
+      ]
+    }
+  ]
+}
